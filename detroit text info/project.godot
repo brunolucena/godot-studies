@@ -1,0 +1,39 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Node2D",
+"class": "DetroitTextInfo",
+"language": "GDScript",
+"path": "res://DetroitTextInfo.gd"
+}, {
+"base": "Node2D",
+"class": "DetroitTextInfo2",
+"language": "GDScript",
+"path": "res://DetroitTextInfo2.gd"
+} ]
+_global_script_class_icons={
+"DetroitTextInfo": "",
+"DetroitTextInfo2": ""
+}
+
+[application]
+
+config/name="Detroit Text Info"
+run/main_scene="res://Main.tscn"
+config/icon="res://icon.png"
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
