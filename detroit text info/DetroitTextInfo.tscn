@@ -180,6 +180,10 @@ tracks/6/keys = {
 
 [node name="DetroitTextInfo" type="Node2D"]
 script = ExtResource( 4 )
+__meta__ = {
+"_editor_description_": "This was the first try.
+It works, but with longer texts, the layout doesn't adjust really well"
+}
 
 [node name="DetroitTextInfo" type="TextureRect" parent="."]
 margin_right = 234.0
